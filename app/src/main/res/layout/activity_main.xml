@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!--background背景颜色-->
+   <!--layout 布局-->
+    <!--margin边框-->
+    <!--padding里面边框的距离-->
+    <!--drawableLeft插入图片-->
+    <!--singleLine只显示一行-->
+
+
+    <!--TextView  文字-->
+    <!--editText  输入框-->
+    <!--button  按钮-->
+    <!--Imageview-->
+    <!--CheckBox 多选框-->
+    <!--RadioGroup  单选框-->
+
+
+
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_tv"-->
+        <!--android:background="#00ff00"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:paddingLeft="16dp"-->
+        <!--android:paddingRight="16dp"-->
+        <!--android:paddingTop="16dp"-->
+        <!--android:paddingBottom="16dp"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textColor="#ff0000"-->
+        <!--android:gravity="left|center_vertical"-->
+        <!--android:drawablePadding="20dp"-->
+        <!--android:drawableLeft="@mipmap/ic_launcher"-->
+        <!--android:singleLine="true"-->
+        <!--android:text="hollowhollowhollowhollowhollowhollowhollowhollowhollow"/>-->
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="16dp"-->
+    <!--android:padding="16dp"-->
+    <!--android:background="#ff00ff"-->
+    <!--android:inputType="text"-->
+    <!--android:hint="请输入 . . ."-->
+    <!--android:textColorHint="#ff0000"-->
+    <!--android:textSize="16sp"-->
+    <!--android:textColor="#00ffff"/>-->
+<Button
+    android:id="@+id/cao_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:padding="16dp"
+    android:onClick="play"
+    android:text="你好"
+   android:textColor="#ff0000"
+    />
+<!--<ImageView-->
+
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:adjustViewBounds="true"-->
+    <!--android:maxHeight="100dp"-->
+    <!--android:maxWidth="100dp"-->
+    <!--android:src="@drawable/baby"-->
+
+    <!--/>-->
+
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="16dp"-->
+        <!--android:padding="16dp"-->
+        <!--android:text="潘立帅"-->
+        <!--/>-->
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="16dp"-->
+        <!--android:padding="16dp"-->
+        <!--android:text="潘立帅2"-->
+        <!--/>-->
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="16dp"-->
+        <!--android:padding="16dp"-->
+        <!--android:text="潘立帅3"-->
+        <!--/>-->
+
+
+</LinearLayout>
